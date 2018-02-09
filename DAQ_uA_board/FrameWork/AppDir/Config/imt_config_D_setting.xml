@@ -1,0 +1,65 @@
+<?xml version='1.0' standalone='yes' ?>
+<GXML_Root>
+<top_oil_sensor>
+  <top_oil_sensor mems='2'>
+    <opt_sim type='Bool'>TRUE</opt_sim>
+    <sim_temperature type='DBL'>20</sim_temperature>
+  </top_oil_sensor>
+</top_oil_sensor>
+<bot_oil_sensor>
+  <bot_oil_sensor mems='2'>
+    <opt_sim type='Bool'>TRUE</opt_sim>
+    <sim_temperature type='DBL'>10</sim_temperature>
+  </bot_oil_sensor>
+</bot_oil_sensor>
+<amb_sensor>
+  <amb_sensor mems='3'>
+    <opt_sim type='Bool'>TRUE</opt_sim>
+    <sim_temperature type='DBL'>3</sim_temperature>
+    <sim_humidity type='DBL'>3</sim_humidity>
+  </amb_sensor>
+</amb_sensor>
+<volt_meas_sensor>
+  <volt_meas_sensor mems='4'>
+    <opt_sim type='Bool'>TRUE</opt_sim>
+    <sim_amp_phaseA type='DBL'>6</sim_amp_phaseA>
+    <sim_amp_phaseB type='DBL'>7</sim_amp_phaseB>
+    <sim_amp_phaseC type='DBL'>8</sim_amp_phaseC>
+  </volt_meas_sensor>
+</volt_meas_sensor>
+<at_231>
+  <at_231 mems='2'>
+    <primary mems='4'>
+      <freq type='DBL'>0</freq>
+      <phaseA mems='1'>
+        <ampl type='SGL'>0</ampl>
+      </phaseA>
+      <phaseB mems='2'>
+        <ampl type='SGL'>0</ampl>
+        <phase type='SGL'>0</phase>
+      </phaseB>
+      <phaseC mems='2'>
+        <ampl type='SGL'>0</ampl>
+        <phase type='SGL'>0</phase>
+      </phaseC>
+    </primary>
+    <secondary mems='4'>
+      <freq type='DBL'>0</freq>
+      <phaseA mems='1'>
+        <ampl type='SGL'>0</ampl>
+      </phaseA>
+      <phaseB mems='2'>
+        <ampl type='SGL'>0</ampl>
+        <phase type='SGL'>0</phase>
+      </phaseB>
+      <phaseC mems='2'>
+        <ampl type='SGL'>0</ampl>
+        <phase type='SGL'>0</phase>
+      </phaseC>
+    </secondary>
+  </at_231>
+</at_231>
+<Node ID>
+  <Node_ID type='U8'>3</Node_ID>
+</Node ID>
+</GXML_Root>

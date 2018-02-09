@@ -1,0 +1,48 @@
+<?xml version='1.0' standalone='yes' ?>
+<GXML_Root>
+<CANSensor>
+  <CANSensor mems='2'>
+    <port type='I32'>0</port>
+    <baud type='I32'>250000</baud>
+  </CANSensor>
+</CANSensor>
+<SensorComm>
+  <SensorComm mems='2'>
+    <Communication mems='5'>
+      <Port type='U16'>0</Port>
+      <Baud_rate type='U32'>38400</Baud_rate>
+      <Parity_check type='Enum U16' sel='None'>2</Parity_check>
+      <Transmission_mode type='Enum U16' sel='ASCII'>1</Transmission_mode>
+      <Time_out type='U32'>100</Time_out>
+    </Communication>
+    <SensorAddr mems='4'>
+      <top_oil_sensor_addr type='U8'>21</top_oil_sensor_addr>
+      <bot_oil_sensor_addr type='U8'>22</bot_oil_sensor_addr>
+      <amb_sensor_addr type='U8'>23</amb_sensor_addr>
+      <vol_meas_sensor_addr type='U8'>24</vol_meas_sensor_addr>
+    </SensorAddr>
+  </SensorComm>
+</SensorComm>
+<MeasComm>
+  <MeasComm mems='3'>
+    <Main_CPU mems='2'>
+      <Port type='U16'>65535</Port>
+      <Baud_rate type='U32'>115200</Baud_rate>
+    </Main_CPU>
+    <FPGA_Port_1 mems='2'>
+      <Port type='U16'>65535</Port>
+      <Baud_rate type='U32'>9600</Baud_rate>
+    </FPGA_Port_1>
+    <FPGA_Port_2 mems='2'>
+      <Port type='U16'>65535</Port>
+      <Baud_rate type='U32'>9600</Baud_rate>
+    </FPGA_Port_2>
+  </MeasComm>
+</MeasComm>
+<PDGen>
+  <PDGen mems='2'>
+    <Port type='U16'>0</Port>
+    <Baud_rate type='U32'>115200</Baud_rate>
+  </PDGen>
+</PDGen>
+</GXML_Root>

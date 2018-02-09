@@ -1,0 +1,21 @@
+<?xml version='1.0' standalone='yes' ?>
+<GXML_Root>
+<sensor_type>
+  <sensor_type type='Enum U16' sel='Main CPU'>0</sensor_type>
+</sensor_type>
+<Firmware>
+  <Firmware type='Path'>E:\inteliss\projects\imt\source\trunk\main_cpu\main_app\platforms\stm32f407_rvmdk\outputs\imt_main_cpu_main_app_stm32f407.hex</Firmware>
+</Firmware>
+<opt_bootloader>
+  <opt_bootloader type='Bool'>FALSE</opt_bootloader>
+</opt_bootloader>
+<curr_version>
+  <curr_version type='String'></curr_version>
+</curr_version>
+<new_ver>
+  <new_ver type='String'></new_ver>
+</new_ver>
+<Progress>
+  <Progress type='U8'>0</Progress>
+</Progress>
+</GXML_Root>
